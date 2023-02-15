@@ -6,7 +6,7 @@
 Easy random name generator for those searching for good names.
 
 ## Libraries included
-* Bootstrap v4
+* Bootstrap V4
 * FontAwesome 5.15
 * Jquery v3.5.1
 

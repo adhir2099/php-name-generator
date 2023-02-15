@@ -11,6 +11,7 @@ $names = array(
     'Marin',
     'Owen',
     'Adhir',
+    'Ervin',
     'Michelle'
 );
 
@@ -18,6 +19,8 @@ $surnames = array(
     'Grant',
     'Wick',
     'Porker',
+    'Cake',
+    'del Castillo',
     'K',
     'Anderson',
     'Johnson',

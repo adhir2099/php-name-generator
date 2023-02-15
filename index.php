@@ -20,7 +20,7 @@
     
     <nav class="navbar navbar-expand-lg bg-dark text-uppercase fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Name generator</a>
+            <a class="navbar-brand js-scroll-trigger text-center" href="#page-top">Name generator</a>
         </div>
     </nav>
 
@@ -67,7 +67,7 @@
     </footer>
 
     <div class="copyright py-4 text-center text-white">
-        <div class="container"><small>Name generator © 2022</small></div>
+        <div class="container"><small>Name generator © 2023</small></div>
     </div>
     
     <script src="assets/js/jquery.min.js"></script>
