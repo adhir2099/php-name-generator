@@ -1,10 +1,8 @@
 ![php8](https://img.shields.io/badge/php-%3E8.1.5-blue)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-ff69b4)
-![Jquery](https://img.shields.io/badge/jquery-3.5.1-orange)
-![Ajax](https://img.shields.io/badge/Ajax-47d1ed?style=for-the-badge&logo=ajax&logoColor=white)
 
 # Random name generator
-Easy random name generator for those searching for good names. Add your names to the array and have fun creating names
+<h3 align="left">Easy random name generator for those searching for good names. Add your names to the array and have fun creating names</h3>
 
 ## Backend
 <p align="left">
@@ -16,14 +14,12 @@ Easy random name generator for those searching for good names. Add your names to
 ## Frontend
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,jquery,css,html,bootstrap" />
+    <img src="https://skillicons.dev/icons?i=tailwind,css,html" />
   </a>
 </p>
 
 ## Libraries included
-* Bootstrap V4
-* FontAwesome 5.15
-* Jquery v3.5.1
+* TailwindCSS V4
 
 ## Contributing
 

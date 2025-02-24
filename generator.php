@@ -1,29 +1,25 @@
 <?php
-    // Set the appropriate headers to indicate JSON content
-    header('Content-Type: application/json');
 
-    $names = array(
-        'Alan', 'Peter', 'Master', 'Agent', 'John', 'Zoey', 'Sarah', 'Marin',
-        'Owen', 'Adhir', 'Ervin', 'Michelle'
-    );
+class NameGenerator
+{
+    private $firstNames = [
+        'Alice', 'Bob', 'Charlie', 'David', 'Eva', 'Frank', 'Grace', 'Hank', 'Ivy', 'Jack',
+        'Karen', 'Leo', 'Mona', 'Nina', 'Oscar', 'Paul', 'Quincy', 'Rachel', 'Steve', 'Tina'
+    ];
 
-    $surnames = array(
-        'Grant', 'Wick', 'Porker', 'Cake', 'del Castillo', 'K', 'Anderson',
-        'Johnson', 'Chief', 'Cena', 'Cunningham', 'Simpson', 'Kitagawa', 'Waifu'
-    );
+    private $lastNames = [
+        'Smith', 'Johnson', 'Williams', 'Brown', 'Jones', 'Garcia', 'Miller', 'Davis', 'Rodriguez', 'Martinez',
+        'Hernandez', 'Lopez', 'Gonzalez', 'Wilson', 'Anderson', 'Thomas', 'Taylor', 'Moore', 'Jackson', 'Martin'
+    ];
 
-    //Generate a random forename.
-    $randomForename = $names[mt_rand(0, sizeof($names) - 1)];
+    public function generateRandomName(): string
+    {
+        $randomFirstName = $this->firstNames[array_rand($this->firstNames)];
+        $randomLastName = $this->lastNames[array_rand($this->lastNames)];
 
-    //Generate a random surname.
-    $randomSurname = $surnames[mt_rand(0, sizeof($surnames) - 1)];
+        return $randomFirstName . ' ' . $randomLastName;
+    }
+}
 
-    //Combine them together.
-    $newName = $randomForename . ' ' . $randomSurname;
-
-    // Create an associative array to hold the generated name
-    $response = array('newValue' => $newName);
-
-    // Output the JSON data
-    echo json_encode($response);
-?>
+$nameGenerator = new NameGenerator();
+// echo $nameGenerator->generateRandomName();
